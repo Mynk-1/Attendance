@@ -1,28 +1,20 @@
 {
-  "name": "event-app",
+  "name": "attendance",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Attendance management app",
+  "main": "src/index.html",  
   "scripts": {
-   
-    "start": "parcel src/index.html"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "buffer": "^6.0.3",
-    "parcel": "^2.13.3",
-    "postcss": "^8.5.3",
-    "process": "^0.11.10",
-    "tailwindcss": "^4.0.12"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir dist --public-url ./"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.0.12",
-    "axios": "^1.8.4",
-    "lucide-react": "^0.479.0",
-    "react": "^19.0.0",
-    "react-alice-carousel": "^2.9.1",
-    "react-dom": "^19.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.8",
+    "lucide-react": "^0.359.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "tailwindcss": "^3.4.1"
   }
 }
