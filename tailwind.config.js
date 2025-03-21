@@ -1,12 +1,9 @@
-export default {
-    content: ["./src/**/*.{js,jsx,ts,tsx}"],
-    theme: {
-      extend: {
-        fontFamily: {
-          opensans: ["Open Sans", "sans-serif"],
-        },
-      },
-    },
-    plugins: [],
-  };
-  
+module.exports = {
+  content: [
+    "./src/**/*.{html,js,jsx}",  // Adjust paths to match your files
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
