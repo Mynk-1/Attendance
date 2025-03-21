@@ -1,0 +1,28 @@
+{
+  "name": "event-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "buffer": "^6.0.3",
+    "parcel": "^2.13.3",
+    "postcss": "^8.5.3",
+    "process": "^0.11.10",
+    "tailwindcss": "^4.0.12"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.12",
+    "axios": "^1.8.4",
+    "lucide-react": "^0.479.0",
+    "react": "^19.0.0",
+    "react-alice-carousel": "^2.9.1",
+    "react-dom": "^19.0.0"
+  }
+}
