@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .open-sans-text {
     font-family: "Open Sans", sans-serif;
